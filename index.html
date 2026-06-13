@@ -7,13 +7,13 @@
 <meta name="description" content="Mox Bulk is a Perth-based Magic: The Gathering card shop offering bulk singles priced for players — indexed against Card Kingdom for easy comparison.">
 <style>
   :root {
-    --navy: #0f1d33;
-    --navy-light: #16273f;
-    --gold: #d6b656;
-    --gold-light: #f0d98c;
-    --teal: #2f6f5e;
-    --teal-dark: #235448;
-    --paper: #f7f5f0;
+    --navy: #2a4258;
+    --navy-light: #35506a;
+    --gold: #e0b85a;
+    --gold-light: #f5dd9c;
+    --teal: #3c7a64;
+    --teal-dark: #2d5e4d;
+    --paper: #faf6ef;
     --ink: #1c2430;
     --muted: #6b7280;
     --border: #e3e0d8;
@@ -70,10 +70,12 @@
 
   /* ---------- Hero ---------- */
   .hero {
-    background: linear-gradient(135deg, var(--navy) 0%, #1c3354 100%);
+    background: linear-gradient(135deg, var(--navy) 0%, #3d5b73 100%);
     color: #fff;
-    padding: 80px 24px 100px;
+    padding: 64px 24px 76px;
     text-align: center;
+    max-width: none;
+    width: 100%;
   }
 
   .hero .badge {
@@ -152,7 +154,7 @@
 
   /* ---------- Sections ---------- */
   section {
-    padding: 80px 24px;
+    padding: 52px 24px;
     max-width: 1100px;
     margin: 0 auto;
   }
@@ -160,7 +162,7 @@
   .section-header {
     text-align: center;
     max-width: 680px;
-    margin: 0 auto 56px;
+    margin: 0 auto 36px;
   }
 
   .section-header .eyebrow {
@@ -225,7 +227,7 @@
     background: var(--navy);
     color: #fff;
     border-radius: 18px;
-    padding: 56px;
+    padding: 40px;
   }
 
   .compare .section-header h2,
@@ -244,7 +246,7 @@
 
   .compare-row {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     align-items: center;
     padding: 16px 24px;
     border-bottom: 1px solid var(--border);
@@ -274,23 +276,12 @@
 
   .price-ck {
     color: var(--muted);
-    text-decoration: line-through;
   }
 
   .price-mox {
     color: var(--teal);
     font-weight: 800;
     font-size: 1.05rem;
-  }
-
-  .save-tag {
-    display: inline-block;
-    background: rgba(47, 111, 94, 0.12);
-    color: var(--teal-dark);
-    font-weight: 700;
-    font-size: 0.78rem;
-    padding: 4px 10px;
-    border-radius: 999px;
   }
 
   .compare-footnote {
@@ -340,7 +331,7 @@
     background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dark) 100%);
     color: #fff;
     border-radius: 18px;
-    padding: 64px 40px;
+    padding: 48px 40px;
     text-align: center;
   }
 
@@ -400,8 +391,6 @@
   @media (max-width: 860px) {
     .feature-grid { grid-template-columns: 1fr; }
     .hero h1 { font-size: 2.2rem; }
-    .compare-row { grid-template-columns: 2fr 1fr 1fr; }
-    .compare-row .save-col { display: none; }
     .compare { padding: 32px 20px; }
     .nav-links { gap: 16px; font-size: 0.85rem; }
   }
@@ -430,7 +419,7 @@
   </div>
   <div class="badge">Perth, Western Australia</div>
   <h1>Magic cards for people who actually <span>play</span> Magic.</h1>
-  <p>Mox Bulk is launching a new bulk singles service — cheap, playset-friendly prices indexed straight from Card Kingdom so you always know you're getting a good deal. No grading premiums, no fuss.</p>
+  <p>Mox Bulk is launching a new bulk singles service — cheap, playset-friendly prices indexed straight from Card Kingdom's USD pricing so you always know it's a fair price. No grading premiums, no fuss.</p>
   <div class="cta-row">
     <a href="#bulk-service" class="btn btn-primary">See How It Works</a>
     <a href="#coming-soon" class="btn btn-secondary">Get Notified</a>
@@ -449,7 +438,7 @@
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/></svg>
       </div>
       <h3>Card Kingdom Indexed</h3>
-      <p>Every bulk listing shows the Card Kingdom price alongside ours, so you can compare at a glance and see exactly how much you're saving.</p>
+      <p>Every bulk listing shows the Card Kingdom USD reference alongside our AUD price, so you can compare at a glance and know our pricing is fair.</p>
     </div>
     <div class="feature-card">
       <div class="icon">
@@ -473,35 +462,31 @@
     <div class="section-header">
       <div class="eyebrow">Price Comparison</div>
       <h2>Indexed Against Card Kingdom</h2>
-      <p>A quick look at how our bulk pricing stacks up against Card Kingdom retail. Example prices below — final pricing live when the bulk store launches.</p>
+      <p>We use Card Kingdom's USD pricing as our baseline, then set our AUD bulk price to match — so a card sitting at US$0.49 on Card Kingdom is $0.50 here. Easy, transparent comparison. Example prices below — final pricing live when the bulk store launches.</p>
     </div>
     <div class="compare-table">
       <div class="compare-row head">
         <div>Card</div>
-        <div>Card Kingdom</div>
-        <div>Mox Bulk</div>
-        <div class="save-col">You Save</div>
+        <div>Card Kingdom (USD)</div>
+        <div>Mox Bulk (AUD)</div>
       </div>
       <div class="compare-row">
         <div><span class="card-name">Aarakocra Sneak</span><span class="card-set">Commander Legends: BG &middot; Common</span></div>
-        <div class="price-ck">$1.25</div>
+        <div class="price-ck">$0.49</div>
         <div class="price-mox">$0.50</div>
-        <div class="save-col"><span class="save-tag">60% off</span></div>
       </div>
       <div class="compare-row">
         <div><span class="card-name">Abdel Adrian, Gorion's Ward</span><span class="card-set">Commander Legends: BG &middot; Uncommon</span></div>
-        <div class="price-ck">$1.99</div>
-        <div class="price-mox">$0.75</div>
-        <div class="save-col"><span class="save-tag">62% off</span></div>
+        <div class="price-ck">$0.89</div>
+        <div class="price-mox">$1.00</div>
       </div>
       <div class="compare-row">
         <div><span class="card-name">Acolyte of Bahamut</span><span class="card-set">Commander Legends: BG &middot; Uncommon</span></div>
-        <div class="price-ck">$1.50</div>
+        <div class="price-ck">$0.49</div>
         <div class="price-mox">$0.50</div>
-        <div class="save-col"><span class="save-tag">67% off</span></div>
       </div>
     </div>
-    <p class="compare-footnote">Card Kingdom is a registered trademark of its respective owner. Prices shown for comparison purposes only and are subject to change at launch.</p>
+    <p class="compare-footnote">Card Kingdom is a registered trademark of its respective owner. Used here as a USD pricing reference only — prices shown are subject to change at launch.</p>
   </div>
 </section>
 
@@ -519,7 +504,7 @@
 <section id="coming-soon">
   <div class="coming-soon">
     <h2>Coming Soon</h2>
-    <p>The Mox Bulk online store is in the final stages of development. Bulk singles, indexed pricing, and Perth local pickup are all on the way.</p>
+    <p>The Mox Bulk online store is in the final stages of development. Bulk singles, indexed pricing, and Perth local pickup are all on the way — live by August 2026.</p>
     <div class="timeline">
       <div class="timeline-item">
         <div class="label">Status</div>
@@ -531,7 +516,7 @@
       </div>
       <div class="timeline-item">
         <div class="label">Launching</div>
-        Bulk singles &amp; indexed pricing
+        August 2026
       </div>
     </div>
   </div>
