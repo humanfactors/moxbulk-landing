@@ -1,0 +1,55 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mox Bulk dirty rock logo">
+  <rect width="200" height="200" rx="32" fill="#243527"/>
+
+  <!-- ground shadow -->
+  <ellipse cx="100" cy="160" rx="62" ry="10" fill="#0f1a12" opacity="0.5"/>
+
+  <!-- main rock body, lumpy cartoon outline -->
+  <path d="M58 150
+           C 36 148, 24 128, 30 108
+           C 34 92, 28 78, 42 64
+           C 54 52, 64 58, 76 46
+           C 90 32, 116 32, 130 46
+           C 142 58, 162 60, 168 80
+           C 176 100, 170 122, 158 136
+           C 168 144, 162 156, 148 156
+           C 138 156, 132 150, 124 152
+           C 112 156, 104 148, 92 152
+           C 80 156, 68 154, 58 150 Z"
+        fill="#a89a8c" stroke="#3a2f28" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- top highlight facet -->
+  <path d="M76 46 C 90 32, 116 32, 130 46 C 138 54, 148 58, 156 64
+           C 144 70, 122 64, 108 56 C 96 50, 84 50, 76 46 Z"
+        fill="#cfc3b6" opacity="0.85"/>
+
+  <!-- shadow facet bottom right -->
+  <path d="M130 110 C 150 108, 166 116, 158 136 C 150 148, 132 150, 124 144
+           C 134 134, 134 120, 130 110 Z"
+        fill="#7e7166" opacity="0.9"/>
+
+  <!-- crack lines -->
+  <path d="M70 70 L 88 92 L 80 110" stroke="#5a4d44" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M120 60 L 128 80 L 146 92" stroke="#5a4d44" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M88 92 L 110 100" stroke="#5a4d44" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- dirt smudges -->
+  <ellipse cx="60" cy="120" rx="14" ry="9" fill="#5c4a36" opacity="0.55" transform="rotate(-12 60 120)"/>
+  <ellipse cx="118" cy="128" rx="10" ry="6" fill="#5c4a36" opacity="0.5" transform="rotate(8 118 128)"/>
+  <ellipse cx="100" cy="80" rx="8" ry="5" fill="#5c4a36" opacity="0.35" transform="rotate(20 100 80)"/>
+
+  <!-- moss patches -->
+  <path d="M44 132 C 40 124, 50 118, 58 122 C 64 125, 60 134, 52 136 C 46 138, 46 136, 44 132 Z" fill="#5d7048" opacity="0.85"/>
+  <path d="M140 132 C 136 126, 146 122, 152 128 C 156 132, 150 140, 142 138 C 138 137, 142 136, 140 132 Z" fill="#5d7048" opacity="0.75"/>
+  <circle cx="50" cy="128" r="2.5" fill="#7f9663" opacity="0.8"/>
+  <circle cx="146" cy="130" r="2" fill="#7f9663" opacity="0.7"/>
+
+  <!-- googly cartoon eyes -->
+  <circle cx="82" cy="92" r="11" fill="#f7f4ee" stroke="#3a2f28" stroke-width="2.5"/>
+  <circle cx="112" cy="88" r="9" fill="#f7f4ee" stroke="#3a2f28" stroke-width="2.5"/>
+  <circle cx="85" cy="95" r="4.5" fill="#2a221d"/>
+  <circle cx="114" cy="90" r="3.8" fill="#2a221d"/>
+
+  <!-- sparkle -->
+  <path d="M158 50 L 162 58 L 170 60 L 162 64 L 158 72 L 154 64 L 146 60 L 154 58 Z" fill="#f0d98c" opacity="0.9"/>
+</svg>
